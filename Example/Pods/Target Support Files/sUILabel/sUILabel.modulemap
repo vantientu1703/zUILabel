@@ -1,0 +1,6 @@
+framework module sUILabel {
+  umbrella header "sUILabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
