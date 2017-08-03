@@ -1,0 +1,16 @@
+PODS:
+  - sUILabel (0.1.0)
+
+DEPENDENCIES:
+  - sUILabel (from `../`)
+
+EXTERNAL SOURCES:
+  sUILabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  sUILabel: 0b2fe11f4f629f4b20fce08c5cb1c969ab57851c
+
+PODFILE CHECKSUM: 4eb1588b933370ef06fa76649dd8b543ba496dc6
+
+COCOAPODS: 1.2.0

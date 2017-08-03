@@ -1,0 +1,6 @@
+framework module Pods_sUILabel_Example {
+  umbrella header "Pods-sUILabel_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
