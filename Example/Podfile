@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'sUILabel_Example' do
+  pod 'sUILabel', :path => '../'
+
+  target 'sUILabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
