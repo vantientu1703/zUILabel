@@ -11,15 +11,24 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-## Installation
+## Installation carthage
+sUILabel is available through Carthage
+```ruby
+github "vantientu1703/zUILabel" ~> 0.3.0
+```
+## Installation cocoapods
 
 sUILabel is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "sUILabel"
+pod "sUILabel", '~>0.3.0' 
 ```
-
+if can't install
+```ruby
+pod repo update 
+```
+after run again command pod install 
 ## Author
 
 vantientu1703, vantientu@hotmail.com
