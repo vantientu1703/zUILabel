@@ -15,4 +15,7 @@ public class sUlabel: NSObject {
     @objc public func helloWorld() {
         print("Hello world, i'm Tu")
     }
+    public func objectiveC() {
+        print("Objetive C")
+    }
 }
