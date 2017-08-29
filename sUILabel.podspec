@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'sUILabel'
-  s.version          = '0.3.0'
+  s.version          = '0.5.1'
   s.summary          = 'The description demo app test'
   s.description      = 'This demo is test version myself'
   s.homepage         = 'https://github.com/vantientu1703/zUILabel'
@@ -9,4 +9,5 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/vantientu1703/zUILabel.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.source_files = 'sUILabel/Classes/**/*'
+  s.dependency 'AFNetworking'
 end

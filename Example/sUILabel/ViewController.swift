@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import sUILabel
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let label = sUlabel()
+        label.helloWorld()
+        label.prints()
     }
 
     override func didReceiveMemoryWarning() {
